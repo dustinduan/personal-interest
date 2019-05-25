@@ -19,7 +19,7 @@ import time
 #urllib.error 处理请求过程中,出现的异常。
 #urllib.parse 解析url
 #urllib.robotparser 解析robots.txt 文件
-website='https://www.xiashutxt.com/209558/'
+website=input("请输入需要调查的网络地址:")
 #ch=bt.parse(website)
 #ower=whois.whois(website)
 prog_re=re.compile(r"(?<=<br/>).*?(?<=<br/>)")
