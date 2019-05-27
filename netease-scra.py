@@ -19,4 +19,5 @@ for i in infor:
 
 
 df=pd.DataFrame(lis)
-df
+df.to_csv("dustin.csv")
+print("succeed")
