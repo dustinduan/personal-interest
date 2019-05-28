@@ -9,7 +9,7 @@ soup=bup(u.text,'lxml')
 infor=soup.find_all('a')
 lis=[]
 for i in infor:
-    lis.append(i.text)
+    lis.append(i.text.replace(" ","").replace("\n",""))
 n=0
 for i in lis:
     if '往期三江' in i:
@@ -17,9 +17,9 @@ for i in lis:
         break
     else:
         n+=1
-for i in lis[n:]:
-    if '阅文' in i:
+for i in lis[n+1::2]:
+    if '起点中文网' in i:
         break
     else:
         print(i)
-c=input("以上是目前起点中文三江封推的书籍目录,请参考.")
+#c=input("以上是目前起点中文三江封推的书籍目录,请参考.")
