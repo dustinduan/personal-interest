@@ -14,9 +14,6 @@ for i in infor:
     dic['其他信息']=i.find_all('p')[1].text.replace("\n","").replace(" ","")
     dic['简介']=i.find_all('p')[2].text.replace("\n","").replace(" ","")
     lis.append(dic)
-    
-
-
 
 df=pd.DataFrame(lis)
 df.to_csv("dustin.csv")
