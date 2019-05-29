@@ -22,4 +22,4 @@ for i in lis[n+1::2]:
         break
     else:
         print(i)
-#c=input("以上是目前起点中文三江封推的书籍目录,请参考.")
+c=input("以上是目前起点中文三江封推的书籍目录,请参考.")

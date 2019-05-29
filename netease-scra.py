@@ -18,3 +18,4 @@ for i in infor:
 df=pd.DataFrame(lis)
 df.to_csv("dustin.csv")
 print("succeed")
+c=input()
