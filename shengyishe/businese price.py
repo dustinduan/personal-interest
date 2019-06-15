@@ -16,6 +16,12 @@ def get_price_list(web_address):
         dic['报价时间']=i.find_all('td')[4].text.replace("\n","")
         lis.append(dic)
     df=pd.DataFrame(lis)
+    df['规格']=df['品牌与规格'].str.split('    ').str[2]#分割后的第一栏成为新的栏目
+    df['市场']=df['品牌与规格'].str.split('    ').str[1]
+    del df['品牌与规格']
+    df['报价类型']=df['报价'].str.split('    ').str[1]#分割后的第一栏成为新的栏目
+    df['最新报价']=df['报价'].str.split('    ').str[2]
+    del df['报价']
     df.to_csv("price.csv",mode='a')
     
 with open ('shengyishe.txt','r') as source:
