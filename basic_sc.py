@@ -27,7 +27,7 @@ prog_re=re.compile(r"(?<=<br/>).*?(?<=<br/>)")
 #print(ower)
 
 def download(url,num_retries=3):
-    print("Download",url)
+    print("Downloading",url)
     try:
         html=ul.urlopen(url).read()
     except ul.URLError as e:
