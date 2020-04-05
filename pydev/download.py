@@ -11,4 +11,8 @@ while True:
         time.sleep(2)
     else:
         try:
-            wget.download(note)
+            wget.download(note,out=out_path+note.split('/')[-1])
+            current_note=note
+        except:
+            print('下载失败')
+            current_note=note
