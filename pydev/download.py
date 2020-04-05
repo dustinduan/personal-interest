@@ -2,6 +2,7 @@ import time
 from pyperclip import paste as pw
 import wget
 
+out_path='D:/360Downloads/'
 current_note=pw()
 while True:
     note=pw()
@@ -11,6 +12,3 @@ while True:
     else:
         try:
             wget.download(note)
-        except:
-            print('下载失败，尝试重新下载。。。。。。')
-            current_note=None
