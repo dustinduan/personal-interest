@@ -32,9 +32,19 @@ def roll_news(url=urls):
     news=html.find_all('a',target="_blank")
     return(news)
 
+news_list=[]
 while True:
+    if len(news_list)>120:
+        news_list=[]
     k=roll_news()
     for i in k:
         if 'http://stock.eastmoney.com/a/' in str(i):
-            print(i.text)
-    time.sleep(30)
+            if i.text in news_list:
+                pass
+            else:
+                print(i.text)
+                news_list.append(i.text)
+                with open('d:/result/stock_news.txt','a') as tar:
+                    tar.write(i.text+'   '+time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())+'\n')
+    time.sleep(10)
+    c=input('请按回车键继续')
