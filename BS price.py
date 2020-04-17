@@ -1,12 +1,16 @@
+import urllib.request as ul
 import requests as rq
+import urllib
 from bs4 import BeautifulSoup as bl
-import shutil
-import os
-import time
 import random
 import re
+import pandas as pd
 
-meizi_headers = ["Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36",
+#设定固定的文件夹
+in_path='D:/material/'
+out_path='D:/result/'
+
+auto_headers = ["Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36",
     "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.153 Safari/537.36",
     "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:30.0) Gecko/20100101 Firefox/30.0",
     "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_2) AppleWebKit/537.75.14 (KHTML, like Gecko) Version/7.0.3 Safari/537.75.14",
@@ -22,28 +26,14 @@ meizi_headers = ["Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML,
     'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36']
 
 global headers
-headers = {'User-Agent': random.choice(meizi_headers)}
-urls='https://roll.eastmoney.com/stock.html'
+headers = {'User-Agent': random.choice(auto_headers)}
 
-def roll_news(url=urls):
+urls='http://www.100ppi.com/mprice/mlist-1.html'
+def price_get(url):
     global headers
-    r=rq.get(url,timeout=10,headers=headers)
-    html=bl(r.text,'lxml')
-    news=html.find_all('a',target="_blank")
-    return(news)
-
-news_list=[]
-while True:
-    if len(news_list)>120:
-        news_list=[]
-    k=roll_news()
-    for i in k:
-        if 'http://stock.eastmoney.com/a/' in str(i):
-            if i.text in news_list:
-                pass
-            else:
-                print(i.text,'  '+i.attrs['href'])
-                news_list.append(i.text)
-                with open('d:/result/stock_news.txt','a') as tar:
-                    tar.write(i.text+'   '+i.attrs['href']+'  '+time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())+'\n')
-    time.sleep(30)
+    price_list=[]
+    dic={}
+    req=rq.get(url,headers=headers,timeout=30)
+    html=bl(req.text,'lxml')
+    print(html)
+price_get(url=urls)
