@@ -23,7 +23,7 @@ meizi_headers = ["Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML,
 
 global headers
 headers = {'User-Agent': random.choice(meizi_headers)}
-urls='https://roll.eastmoney.com/stock.html'
+urls=['https://roll.eastmoney.com/stock.html']
 
 def roll_news(url=urls):
     global headers
@@ -34,16 +34,19 @@ def roll_news(url=urls):
 
 news_list=[]
 while True:
-    if len(news_list)>120:
+    if len(news_list)>400:
         news_list=[]
-    k=roll_news()
-    for i in k:
-        if 'http://stock.eastmoney.com/a/' in str(i):
-            if i.text in news_list:
-                pass
-            else:
-                print(i.text,'  '+i.attrs['href'])
-                news_list.append(i.text)
-                with open('d:/result/stock_news.txt','a') as tar:
-                    tar.write(i.text+'   '+i.attrs['href']+'  '+time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())+'\n')
-    time.sleep(30)
+    try:
+        k=roll_news(url=urls[0])
+        for i in k:
+            if 'http://stock.eastmoney.com/a/' in str(i):
+                if i.text in news_list:
+                    pass
+                else:
+                    print(i.text,'  '+i.attrs['href'])
+                    news_list.append(i.text)
+                    with open('d:/result/stock_news.txt','a') as tar:
+                        tar.write(i.text+'   '+i.attrs['href']+'  '+time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())+'\n')
+    except:
+        pass
+    time.sleep(5)
