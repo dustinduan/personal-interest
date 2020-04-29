@@ -49,4 +49,5 @@ while True:
                         tar.write(i.text+'   '+i.attrs['href']+'  '+time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())+'\n')
     except:
         pass
-    time.sleep(5)
+    print(time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())+'\n')
+    time.sleep(120)
