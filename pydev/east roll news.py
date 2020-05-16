@@ -45,7 +45,7 @@ while True:
                 else:
                     print(i.text,'  '+i.attrs['href'])
                     news_list.append(i.text)
-                    with open('d:/result/stock_news.txt','a') as tar:
+                    with open('e:/result/stock_news.txt','a') as tar:
                         tar.write(i.text+'   '+i.attrs['href']+'  '+time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())+'\n')
     except:
         pass

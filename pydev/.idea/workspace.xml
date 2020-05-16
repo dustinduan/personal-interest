@@ -1,20 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ca21b753-a899-4077-bba8-e6c2ded8b480" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jupyter/temp.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../jupyter/temp.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jupyter/临时程序编写.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../jupyter/临时程序编写.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/east roll news.py" beforeDir="false" afterPath="$PROJECT_DIR$/east roll news.py" afterDir="false" />
-    </list>
+    <list default="true" id="ca21b753-a899-4077-bba8-e6c2ded8b480" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FavoritesManager">
-    <favorites_list name="pydev" />
+    <favorites_list name="pydev">
+      <favorite_root url="file://$PROJECT_DIR$/download.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+    </favorites_list>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -69,7 +65,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="fund_holding" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="fund_holding" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="pydev" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -90,11 +86,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Python.fund_holding" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -137,10 +128,10 @@
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="628" y="219" key="EnvironmentVariablesDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1583289877343" />
-    <state x="488" y="147" key="FileChooserDialogImpl" timestamp="1588165854514">
+    <state x="488" y="147" key="FileChooserDialogImpl" timestamp="1588219535270">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="488" y="147" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1588165854514" />
+    <state x="488" y="147" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1588219535270" />
     <state x="686" y="209" key="FileChooserDialogImpl/0.0.1920.1032@0.0.1920.1032" timestamp="1583395716457" />
     <state width="1345" height="179" key="GridCell.Tab.0.bottom" timestamp="1588166085877">
       <screen x="0" y="0" width="1366" height="728" />
@@ -167,10 +158,10 @@
     </state>
     <state x="239" y="18" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1588165885691" />
     <state x="336" y="56" key="SettingsEditor/0.0.1920.1032@0.0.1920.1032" timestamp="1583553127693" />
-    <state x="398" y="208" key="com.intellij.ide.util.TipDialog" timestamp="1588165990059">
+    <state x="398" y="208" key="com.intellij.ide.util.TipDialog" timestamp="1588219328450">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="398" y="208" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1588165990059" />
+    <state x="398" y="208" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1588219328450" />
     <state x="559" y="295" key="com.intellij.ide.util.TipDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1583670220962" />
     <state x="660" y="165" width="840" height="1034" key="search.everywhere.popup" timestamp="1583196540737">
       <screen x="0" y="0" width="1920" height="1032" />
