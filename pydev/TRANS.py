@@ -28,7 +28,7 @@ while True:
         source=input('请输入需要翻译的句子或者单词:')
         k=tranlate(source,direction=choice[c])
         print(k)
-        with open('d:/translation_rec.txt','a') as tar:
+        with open('e:/result/translation_rec.txt','a') as tar:
             tar.write("翻译前:"+source+'\n'+"翻译后:"+k+'\n')
     except:
         print('翻译失败，请继续尝试。。。')
