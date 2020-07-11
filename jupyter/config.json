@@ -1,0 +1,9 @@
+{
+    "TS_TOKEN": "dgdhgdfnhgfjmgh,gcfgdhdfdgdgdfgds",
+    "NOSQL_DB_HOST": "localhost",
+    "NOSQL_DB_PORT": "27017",
+    "NOSQL_DB_USER": "dustinduan",
+    "NOSQL_DB_PASS": "789000duan",
+    "PROXY_PROTOCOL": "HTTP_PROXY",
+    "PROXY_HOST": ""
+}

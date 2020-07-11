@@ -1,0 +1,235 @@
+1592279569133	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\dusti\\AppData\\Local\\Temp\\rust_mozprofileCjhR0T"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: services.settings: main/fxmonitor-breaches sync interrupted by shutdown
+console.warn: services.settings: main/messaging-experiments sync interrupted by shutdown
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: , line 0: uncaught exception: 2147500036
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+libpng warning: iCCP: cHRM chunk does not match sRGB
+1592279598411	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\dusti\\AppData\\Local\\Temp\\rust_mozprofileyHhSWU"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1592279608720	Marionette	INFO	Listening on port 52837
+1592279609294	Marionette	WARN	TLS certificate errors will be ignored for this session
+1592279615060	Marionette	INFO	Stopped listening on port 52837
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+libpng warning: iCCP: cHRM chunk does not match sRGB
+1592279690945	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\dusti\\AppData\\Local\\Temp\\rust_mozprofilejFWeN4"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1592279697984	Marionette	INFO	Listening on port 52986
+1592279698430	Marionette	WARN	TLS certificate errors will be ignored for this session
+1592279712536	Marionette	INFO	Stopped listening on port 52986
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+libpng warning: iCCP: cHRM chunk does not match sRGB
+1592279883820	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\dusti\\AppData\\Local\\Temp\\rust_mozprofileLH1kzu"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1592279891803	Marionette	INFO	Listening on port 53198
+1592279892393	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: "Store does not have a valid reducer. Make sure the argument passed to combineReducers is an object whose values are reducers."
+console.error: "Store does not have a valid reducer. Make sure the argument passed to combineReducers is an object whose values are reducers."
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x6A0029,name=PNecko::Msg_RemoveRequestContext) Channel closing: too late to send/recv, messages will be lost
+
+1592279995080	Marionette	INFO	Stopped listening on port 53198
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+libpng warning: iCCP: cHRM chunk does not match sRGB
+1592293310843	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\dusti\\AppData\\Local\\Temp\\rust_mozprofile8D5r4U"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1592293320516	Marionette	INFO	Listening on port 49651
+1592293320831	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: "Store does not have a valid reducer. Make sure the argument passed to combineReducers is an object whose values are reducers."
+1592293785969	Marionette	INFO	Stopped listening on port 49651
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+libpng warning: iCCP: cHRM chunk does not match sRGB
+1592445503360	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\dusti\\AppData\\Local\\Temp\\rust_mozprofile7CHXsU"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1592445514410	Marionette	INFO	Listening on port 63867
+1592445514592	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/NetworkGeolocationProvider.jsm, line 555: TypeError: xhr.response.location is undefined
+console.error: "Store does not have a valid reducer. Make sure the argument passed to combineReducers is an object whose values are reducers."
+1592445635579	Marionette	INFO	Stopped listening on port 63867
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+libpng warning: iCCP: cHRM chunk does not match sRGB
+1592445640204	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\dusti\\AppData\\Local\\Temp\\rust_mozprofileXbTNuj"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1592445646999	Marionette	INFO	Listening on port 63989
+1592445647026	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/NetworkGeolocationProvider.jsm, line 555: TypeError: xhr.response.location is undefined
+JavaScript error: resource://gre/modules/NetworkGeolocationProvider.jsm, line 555: TypeError: xhr.response.location is undefined
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1592445694703	Marionette	INFO	Stopped listening on port 63989
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+libpng warning: iCCP: cHRM chunk does not match sRGB
+1592653982482	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\dusti\\AppData\\Local\\Temp\\rust_mozprofileHIxCc7"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1592653990439	Marionette	INFO	Listening on port 51543
+1592653990848	Marionette	WARN	TLS certificate errors will be ignored for this session
+1592654005126	Marionette	INFO	Stopped listening on port 51543
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+libpng warning: iCCP: cHRM chunk does not match sRGB
+1592654346261	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\dusti\\AppData\\Local\\Temp\\rust_mozprofilemnsQgm"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1592654354402	Marionette	INFO	Listening on port 51760
+1592654354728	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/NetworkGeolocationProvider.jsm, line 555: TypeError: xhr.response.location is undefined
+console.error: "Store does not have a valid reducer. Make sure the argument passed to combineReducers is an object whose values are reducers."
+1592654690581	Marionette	INFO	Stopped listening on port 51760
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+libpng warning: iCCP: cHRM chunk does not match sRGB
+1592655111182	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\dusti\\AppData\\Local\\Temp\\rust_mozprofileo218yE"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1592655118296	Marionette	INFO	Listening on port 62029
+1592655118339	Marionette	WARN	TLS certificate errors will be ignored for this session
+1592655136863	Marionette	INFO	Stopped listening on port 62029
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+libpng warning: iCCP: cHRM chunk does not match sRGB
+1592655140968	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\dusti\\AppData\\Local\\Temp\\rust_mozprofile4uPzH9"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1592655146675	Marionette	INFO	Listening on port 62100
+1592655147023	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/NetworkGeolocationProvider.jsm, line 555: TypeError: xhr.response.location is undefined
+JavaScript error: resource://gre/modules/NetworkGeolocationProvider.jsm, line 555: TypeError: xhr.response.location is undefined
+JavaScript error: http://libs.baidu.com/jquery/1.4.2/jquery.min.js, line 26: NS_ERROR_NOT_INITIALIZED: 
+1592655193810	Marionette	INFO	Stopped listening on port 62100
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+libpng warning: iCCP: cHRM chunk does not match sRGB
+1592655640241	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\dusti\\AppData\\Local\\Temp\\rust_mozprofileuhQBKB"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1592655645822	Marionette	INFO	Listening on port 62274
+1592655646297	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/NetworkGeolocationProvider.jsm, line 555: TypeError: xhr.response.location is undefined
+console.error: "Store does not have a valid reducer. Make sure the argument passed to combineReducers is an object whose values are reducers."
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1592655759411	Marionette	INFO	Stopped listening on port 62274
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+libpng warning: iCCP: cHRM chunk does not match sRGB
+1592655765207	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\dusti\\AppData\\Local\\Temp\\rust_mozprofileR7036J"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1592655771314	Marionette	INFO	Listening on port 62389
+1592655771756	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/NetworkGeolocationProvider.jsm, line 555: TypeError: xhr.response.location is undefined
+JavaScript error: resource://gre/modules/NetworkGeolocationProvider.jsm, line 555: TypeError: xhr.response.location is undefined
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1592655901156	Marionette	INFO	Stopped listening on port 62389
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+libpng warning: iCCP: cHRM chunk does not match sRGB
+1592660564310	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\dusti\\AppData\\Local\\Temp\\rust_mozprofileOY4nZY"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1592660571448	Marionette	INFO	Listening on port 56650
+1592660571562	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://www.baidu.com/js/opensug.js, line 1: InvalidAccessError: CSSStyleSheet.cssRules getter: Can't access rules of still-loading stylsheet
+JavaScript error: resource://gre/modules/NetworkGeolocationProvider.jsm, line 555: TypeError: xhr.response.location is undefined
+1592660604272	Marionette	INFO	Stopped listening on port 56650
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+libpng warning: iCCP: cHRM chunk does not match sRGB
+1592660816390	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\dusti\\AppData\\Local\\Temp\\rust_mozprofilemqUBxI"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1592660822015	Marionette	INFO	Listening on port 56770
+1592660822441	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/NetworkGeolocationProvider.jsm, line 555: TypeError: xhr.response.location is undefined
+JavaScript error: resource://gre/modules/NetworkGeolocationProvider.jsm, line 555: TypeError: xhr.response.location is undefined
+JavaScript error: resource://gre/modules/NetworkGeolocationProvider.jsm, line 555: TypeError: xhr.response.location is undefined
+1592669804839	Marionette	INFO	Stopped listening on port 56770
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+libpng warning: iCCP: cHRM chunk does not match sRGB
+1592923187718	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\dusti\\AppData\\Local\\Temp\\rust_mozprofileYuCRpP"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1592923196951	Marionette	INFO	Listening on port 61239
+1592923197258	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/NetworkGeolocationProvider.jsm, line 555: TypeError: xhr.response.location is undefined
+console.error: "Store does not have a valid reducer. Make sure the argument passed to combineReducers is an object whose values are reducers."
+console.warn: services.settings: main/messaging-experiments sync already running
+console.error: services.settings: 
+  Message: TypeError: NetworkError when attempting to fetch resource.
+console.warn: services.settings: main/sites-classification sync interrupted by shutdown
+console.warn: services.settings: pinning/pins sync interrupted by shutdown
+console.warn: services.settings: blocklists/gfx sync interrupted by shutdown
+1592924594249	Marionette	INFO	Stopped listening on port 61239
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+libpng warning: iCCP: cHRM chunk does not match sRGB
