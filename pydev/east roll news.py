@@ -50,4 +50,4 @@ while True:
     except:
         pass
     print(time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())+'\n')
-    time.sleep(120)
+    time.sleep(60)
