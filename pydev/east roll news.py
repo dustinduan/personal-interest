@@ -24,6 +24,10 @@ meizi_headers = ["Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML,
 global headers
 headers = {'User-Agent': random.choice(meizi_headers)}
 urls=['https://roll.eastmoney.com/stock.html']
+out_file='e:/result/stock_news.txt'
+if not os.path.exists(out_file):
+    with open(out_file,'a') as tar:
+        tar.write('这是首次使用信息数据储存文件'+'\n')
 
 def roll_news(url=urls):
     global headers
@@ -32,22 +36,24 @@ def roll_news(url=urls):
     news=html.find_all('a',target="_blank")
     return(news)
 
-news_list=[]
 while True:
-    if len(news_list)>400:
-        news_list=[]
+    news_list=[]
+    with open(out_file,'r') as sou:
+        for n in range(50):
+            info=sou.readline()
+            news_list.append(info)
     try:
         k=roll_news(url=urls[0])
-        for i in k:
-            if 'http://stock.eastmoney.com/a/' in str(i):
-                if i.text in news_list:
-                    pass
-                else:
-                    print(i.text,'  '+i.attrs['href'])
-                    news_list.append(i.text)
-                    with open('e:/result/stock_news.txt','a') as tar:
+        with open(out_file,'a') as tar:
+            tar.seek(0,0)
+            for i in k:
+                if 'http://stock.eastmoney.com/a/' in str(i):
+                    if i.text in news_list:
+                        pass
+                    else:
+                        print(i.text,'  '+i.attrs['href'])
                         tar.write(i.text+'   '+i.attrs['href']+'  '+time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())+'\n')
     except:
         pass
     print(time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())+'\n')
-    time.sleep(60)
+    time.sleep(30)
